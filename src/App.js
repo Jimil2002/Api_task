@@ -21,22 +21,7 @@ function App() {
 
 
   useEffect(() => {
-    // const interval = setInterval(() => {
-
-    //    fetchData() 
-
-    //    console.log(num,"hh");
-    // }, 5000);
-
-    // return () => clearInterval(interval); 
-    // let a = 1
-    // fetchData(`https://hn.algolia.com/api/v1/search_by_date?tags=story&page=${0}`);
-    // const interval = setInterval(()=>{
-    //   fetch(`https://hn.algolia.com/api/v1/search_by_date?tags=story&page=${a}`)
-    //   a++
-    // },5000)
-    // fetchData()
-    //     return () => clearInterval(interval); 
+    
 
     const intervalId = setInterval(() => {
       setArr([])
